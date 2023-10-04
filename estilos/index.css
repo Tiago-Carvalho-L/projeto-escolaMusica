@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor0: #FB6262;
+    --cor1: #FB6262;
+    --cor2: #FA1717;
+    --cor3: #C71212;
+    --cor4: #7A0B0B;
+    --cor5: #7A3030;
+
+    --font-titulo: 'Bebas Neue', sans-serif;
+    --font-padrao: 'Roboto Mono', monospace;  
+}
+
+main section {
+    padding-top: 30px;
+}
+
+main section h2.apresentacao {
+    text-align: center;    
+}
+
+main section.containerAbordagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-top: 15px;
+}
+
+main section.containerAbordagem p {
+    max-width: 500px;
+    width: 100%;
+}
+
+main section.principios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+    padding-top: 0px;
+}
+
+main section.box {
+    background-color: var(--cor1);
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.49);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    width: 260px;
+    height: 250px;
+}
+
+main section.box h2 {
+    background-color: var(--cor3);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    margin-top: -5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 0px;
+    text-align: center;
+}
+
+main section.box p {
+    color: white;
+    width: 250px;
+    text-align: justify;
+}
+
+main section.box ul {
+    color: white;
+    list-style-position: inside;
+}
+
+main strong {
+    background-color: var(--cor1);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+main h2 {
+    font-size: 1.7em;
+    padding-bottom: 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main img {
+    width: 100%;
+    max-height: 350px;
+}
+
+main img.imagemAbordagem {
+    width: 100%;
+    max-width: 300px;
+    max-height: 400px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
